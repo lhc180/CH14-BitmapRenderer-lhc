@@ -1,0 +1,31 @@
+0.6    
+	new field placement allows for any number of fields 
+	 and respects aspect ratio
+	fields with low contrast are ignored
+	non-symmetric field setups are possible
+
+0.5    
+	global and per-frame zooming supported
+	optimal zoom value is calculated to avoid moving border	effect	
+	add filter unsharp to sharpen the frames
+	write parameters to transforms file
+
+0.44	
+	bugfixing
+	finished RGB support
+	transforms file format supports comments
+
+0.42
+	input filename and tc_list stuff used
+0.41    
+	code style from transcode used
+0.4	
+	moved to CVS version we use a cleaned median to select the right
+	transform from the fields
+0.3
+	Support RGB (untestet)
+	maxshift default 50
+	allowmax added
+	scan only every second shift and then make a second small
+          scan around the best match
+	removed black rectangle around transformed frame
